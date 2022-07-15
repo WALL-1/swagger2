@@ -29,13 +29,14 @@ desc_doc = 'README.md'
 
 setup(
     name='swagger2',
-    version='0.0.5',
+    version='0.0.6',
     author='Jinghe Lee',
     author_email='jinghe_lee@163.com',
     url='https://github.com/JingheLee/swagger2',
     install_requires=[
         'requests'
     ],
+    packages=['swagger2'],
     description='实现了Swagger文档生成Python请求数据功能，借助主流测试框架可快速完成大批量的接口测试任务。',
     long_description_content_type='text/markdown',
     long_description=open(desc_doc, encoding='utf-8').read(),
