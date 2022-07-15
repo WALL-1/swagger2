@@ -1,7 +1,7 @@
 .vscode
 test
-setup.py
-pypi.py
+# setup.py
+# pypi.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
