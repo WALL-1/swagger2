@@ -127,7 +127,8 @@ class Swagger:
                     'formData':dict()
                 }
                 # 参数提取
-                for param in form.get('parameters'):
+                parameters = form.get('parameters') or dict()
+                for param in parameters:
                     _in = param.get('in')
                     paramName = param.get('name')
                     paramValue = self.__property__(param)
